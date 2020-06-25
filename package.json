@@ -44,22 +44,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supabase/pg-api.git"
+    "url": "git+https://github.com/soedirgo/pg-api.git"
   },
   "bugs": {
-    "url": "https://github.com/supabase/pg-api/issues"
+    "url": "https://github.com/soedirgo/pg-api/issues"
   },
-  "homepage": "https://github.com/supabase/pg-api#readme",
+  "homepage": "https://github.com/soedirgo/pg-api#readme",
   "nodemonConfig": {
     "exec": "npm run dev",
-    "watch": [
-      "src"
-    ],
+    "watch": ["src"],
     "ext": "js,ts,sql",
-    "ignore": [
-      "**/__tests__/**",
-      "*.test.js",
-      "*.spec.js"
-    ]
+    "ignore": ["**/__tests__/**", "*.test.js", "*.spec.js"]
   }
 }
